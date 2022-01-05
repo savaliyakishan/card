@@ -2,190 +2,184 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Kishansavaliya</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="img/logo1.png">
-    <!-- ------------ Font awesome CDN link ------------------ -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap" rel="stylesheet">
-    <style>
-body {
-  background: #1da9d0;
-  margin: 0;
-  padding: 0;
-
-}
-
-.image-area {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-}
-
-.img-wrapper {
-  box-shadow: 20px 20px 20px 0px #000000bd;
-  border-radius: 5% !important;
-  width: 300px;
-  height: 350px;
-  position: relative;
-  overflow: hidden;
-}
-
-.img-wrapper:before {
- content: "";
-    position: absolute;
-    top: 0;
-    left: 180%;
-    height: 100%;
-    width: 100%;
-    background: rgb(255 255 255 / 0%);
-    z-index: 1;
-    transform: skew(181deg);
-    transition: 0.8s;
-}
-
-.img-wrapper:hover:before {
-  left: -180%;
-}
-
-.img-wrapper img {
-  height: 426px;
-  width: 100%;
-  transition: 2s;
-}
-.img-wrapper:hover img {
-  filter: brightness(0.5);
-  transform: scale(1.1);
-}
-
-.img-wrapper h2 {
-  background: transparent;
-  font-family: 'Moon Dance', cursive;
-  color: white;
-  text-align: center;
-  margin: 0;
-  padding: 10px 0;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  transform: perspective(400px) rotateY(90deg);
-  transform-origin: left;
-  transition: 1.5s;
-}
-.img-wrapper b {
-  background: transparent;
-  color: BLACK;
-  text-align: center;
-  margin: 0;
-  opacity: 0.9;
-  padding: 10px 0;
-  position: absolute;
-  bottom: 48px;
-    right: 2%;
-  width: 100%;
-  transform: perspective(400px) rotateY(90deg);
-  transform-origin: left;
-  transition: 1.5s;
-}
-.img-wrapper:hover b {
-  transform: perspective(400px) rotateY(0deg);
-}
-.img-wrapper:hover h2 {
-  transform: perspective(400px) rotateY(0deg);
-}
-
-.img-wrapper ul {
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  background: rgba(255, 255, 255, 0);
-}
-
-.img-wrapper ul li {
-  background: gary;
-  opacity: 0.9;
-  height: 40px;
-  width: 40px;
-  text-align: center;
-  line-height: 40px;
-  transform: perspective(800px) rotateY(90deg);
-  transition: 0.5s;
-  transform-origin: left;
-}
-
-.img-wrapper:hover ul li {
-  transform: perspective(800px) rotateY(0deg);
-}
-
-.img-wrapper:hover ul li:nth-child(1) {
-  transition-delay: 0.2s;
-}
-
-.img-wrapper:hover ul li:nth-child(2) {
-  transition-delay: 0.6s;
-}
-
-.img-wrapper:hover ul li:nth-child(3) {
-  transition-delay: 0.8s;
-}
-
-.img-wrapper:hover ul li:nth-child(4) {
-  transition-delay: 1s;
-}
-
-.img-wrapper ul li a {
-  color: black;
-  background: rgba(255, 255, 255, 0) !important;
-}
-
-.img-wrapper ul li i {
-  color: black;
-  background: rgba(255, 255, 255, 0);
-}
-
-#call:hover {
-  color: #1da9d0;
-}
-#fb:hover {
-  color: #1da9d0;
-}
-#insta:hover {
-  color: #1da9d0;
-}
-#mail:hover {
-  color: #1da9d0;
-}
-
-    </style>
+  <meta charset="UTF-8">
+  <title>Kishansavaliya</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="img/logo1.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #919191;
+      margin: 0;
+      padding: 0;
+    }
+    .image-area {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      position: absolute;
+    }
+    .img-wrapper {
+      box-shadow: 20px 20px 20px 0px #000000bd;
+      border-radius: 5% !important;
+      width: 300px;
+      height: 350px;
+      position: relative;
+      overflow: hidden;
+    }
+    .img-wrapper:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 180%;
+      height: 100%;
+      width: 100%;
+      background: rgb(255 255 255 / 0%);
+      z-index: 1;
+      transform: skew(181deg);
+      transition: 0.5s;
+    }
+    .img-wrapper:hover:before {
+      left: -180%;
+    }
+    .img-wrapper img {
+      height: 426px;
+      width: 100%;
+      transition: 2s;
+    }
+    .img-wrapper:hover img {
+      filter: brightness(0.5);
+      transform: scale(1.1);
+    }
+    .img-wrapper h2 {
+      background: transparent;
+      font-family: 'Moon Dance', cursive;
+      color: white;
+      text-align: center;
+      margin: 0;
+      padding: 10px 0;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      transform: perspective(400px) rotateY(90deg);
+      transform-origin: left;
+      transition: 1.5s;
+    }
+    .img-wrapper b {
+      background: transparent;
+      color: BLACK;
+      text-align: center;
+      margin: 0;
+      opacity: 0.9;
+      padding: 10px 0;
+      position: absolute;
+      bottom: 48px;
+      right: 2%;
+      width: 100%;
+      transform: perspective(400px) rotateY(90deg);
+      transform-origin: left;
+      transition: 1.5s;
+    }
+    .img-wrapper:hover b {
+      transform: perspective(400px) rotateY(0deg);
+    }
+    .img-wrapper:hover h2 {
+      transform: perspective(400px) rotateY(0deg);
+    }
+    .img-wrapper ul {
+      position: absolute;
+      top: 0;
+      left: 0;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      background: rgba(255, 255, 255, 0);
+    }
+    .img-wrapper ul li {
+      opacity: 0.9;
+      height: 40px;
+      width: 40px;
+      text-align: center;
+      line-height: 40px;
+      transform: perspective(800px) rotateY(90deg);
+      transition: 0.5s;
+      transform-origin: left;
+    }
+    .img-wrapper:hover ul li {
+      transform: perspective(800px) rotateY(0deg);
+    }
+    .img-wrapper:hover ul li:nth-child(1) {
+      transition-delay: 0.2s;
+    }
+    .img-wrapper:hover ul li:nth-child(2) {
+      transition-delay: 0.6s;
+    }
+    .img-wrapper:hover ul li:nth-child(3) {
+      transition-delay: 0.8s;
+    }
+    .img-wrapper:hover ul li:nth-child(4) {
+      transition-delay: 1s;
+    }
+    .img-wrapper ul li a {
+      color: black;
+      background: rgba(255, 255, 255, 0) !important;
+    }
+    .img-wrapper ul li i {
+      color: black;
+      background: rgba(255, 255, 255, 0);
+    }
+  </style>
 </head>
 
 <body>
-    <div class="image-area">
-        <div class="img-wrapper">
-            <img src="img/model.jpg" alt="Atul Prajapati">
-            
-            <h2>KISHAN SAVALIYA</h2>
-            <b></b>
-
-            <ul>
-                <li><a href="https://www.facebook.com/kishan.savaliya.1690" target="_blank"><i id="fb" class="fa fa-facebook" aria-hidden="true"></i></a>
-                </li>
-                <li><a href="https://www.instagram.com/llmr_smilerll/" target="_blank"><i id="insta" class="fa fa-instagram" aria-hidden="true"></i></a>
-                </li>
-                <li><a href="mailto:kishansavaliya9083@gmail.com" target="_blank"><i class="fa fa-envelope" id="mail" aria-hidden="true"></i></a>
-                </li>
-                <li><a href="tel:8758969093"><i class="fa fa-phone" aria-hidden="true" id="call"></i></a>
-            </ul>
-        </div>
+  <div class="image-area">
+    <div class="img-wrapper">
+      <img src="img/model.jpg" alt="Atul Prajapati">
+      <h2>KISHAN SAVALIYA</h2>
+      <b></b>
+      <ul>
+        <li><a href="https://www.facebook.com/kishan.savaliya.1690" target="_blank"><i id="fb" class="fa fa-facebook" aria-hidden="true"></i></a>
+        </li>
+        <li><a href="https://www.instagram.com/llmr_smilerll/" target="_blank"><i id="insta" class="fa fa-instagram" aria-hidden="true"></i></a>
+        </li>
+        <li><a href="mailto:kishansavaliya9083@gmail.com" target="_blank"><i class="fa fa-envelope" id="mail" aria-hidden="true"></i></a>
+        </li>
+        <li><a href="tel:8758969093"><i class="fa fa-phone" aria-hidden="true" id="call"></i></a>
+        </li>
+      </ul>
     </div>
+  </div>
+  <script>
+    const list = document.querySelectAll('.list');
+          function activeLink(){
+            list.forEach((item) =>
+            item.classList.remove('active'));
+            this.classList.add('active')
+          }
+          list.forEach((item) =>
+          item.addEventListener('click',activeLink));
+  </script>
+  <script>
+    document.addEventListener('contextmenu', event=> event.preventDefault()); 
+    document.onkeydown = function(e) { 
+    if(event.keyCode == 123) { 
+    return false; 
+    } 
+    if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){ 
+    return false; 
+    } 
+    if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){ 
+    return false; 
+    } 
+    if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){ 
+    return false; 
+    } 
+    }
+  </script>
 </body>
 
 </html>
